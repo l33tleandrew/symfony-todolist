@@ -1,0 +1,5 @@
+framework:
+    test: true
+    session:
+        storage_id: session.storage.mock_file
+    name_converter: 'serializer.name_converter.camel_case_to_snake_case'

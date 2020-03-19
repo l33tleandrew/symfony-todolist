@@ -1,0 +1,13 @@
+nelmio_api_doc:
+    documentation:
+        info:
+            title: ToDo List App
+            description: This is an example app!
+            version: 1.0.0
+    areas: # to filter documented areas
+        default:
+            path_patterns:
+                - ^/api(?!/doc$) # Accepts routes under /api except /api/doc
+        v1:
+            path_patterns:
+                - ^/task
